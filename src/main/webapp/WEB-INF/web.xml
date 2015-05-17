@@ -24,4 +24,14 @@
     <servlet-name>app</servlet-name>
     <url-pattern>/app</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>d3test</display-name>
+    <servlet-name>d3test</servlet-name>
+    <servlet-class>com.eclipse.geowave.accumulo.app.d3test</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>d3test</servlet-name>
+    <url-pattern>/d3test</url-pattern>
+  </servlet-mapping>
 </web-app>
